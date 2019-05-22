@@ -1,5 +1,3 @@
-
-
 import UIKit
 
 class ChecklistTableViewCell: UITableViewCell {

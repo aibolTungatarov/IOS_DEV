@@ -1,4 +1,3 @@
-
 import UIKit
 
 protocol ItemDetailViewControllerDelegate: class {
@@ -19,12 +18,10 @@ class ItemDetailViewController: UITableViewController {
  
   
   @IBAction func cancel(_ sender: Any) {
-    
-delegate?.itemDetailViewControllerDidCancel(self)
+    delegate?.itemDetailViewControllerDidCancel(self)
   }
   
   @IBAction func done(_ sender: Any) {
-    print("done btn")
     if let item = itemToEdit, let text = textfield.text {
       item.text = text
       delegate?.itemDetailViewController(self, didFinishEditing: item)
