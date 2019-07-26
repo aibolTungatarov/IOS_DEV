@@ -1,0 +1,6 @@
+framework module Pods_Lecture4Week2_Second_part_ {
+  umbrella header "Pods-Lecture4Week2(Second part)-umbrella.h"
+
+  export *
+  module * { export * }
+}

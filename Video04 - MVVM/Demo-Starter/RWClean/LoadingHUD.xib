@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoadingHUD" customModule="RWClean" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qD-hh-i6s" userLabel="BG Color">
+                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="KaX-Y2-KxU" userLabel="Activity Indicator">
+                    <rect key="frame" x="56.5" y="56.5" width="37" height="37"/>
+                    <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9qD-hh-i6s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PZ1-NG-qYY"/>
+                <constraint firstAttribute="trailing" secondItem="9qD-hh-i6s" secondAttribute="trailing" id="fT5-HG-fbw"/>
+                <constraint firstItem="9qD-hh-i6s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lwn-KW-FZb"/>
+                <constraint firstItem="KaX-Y2-KxU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="o1c-Qk-DG3"/>
+                <constraint firstAttribute="bottom" secondItem="9qD-hh-i6s" secondAttribute="bottom" id="q87-A3-b7B"/>
+                <constraint firstItem="KaX-Y2-KxU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qm7-1k-bxk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="16"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="8" y="67"/>
+        </view>
+    </objects>
+</document>

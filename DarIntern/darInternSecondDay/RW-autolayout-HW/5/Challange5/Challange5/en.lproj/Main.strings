@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Eiichiro Oda"; ObjectID = "6hG-RT-ZOa"; */
+"6hG-RT-ZOa.text" = "Eiichiro Oda";
+
+/* Class = "UILabel"; text = "1997"; ObjectID = "EBV-Mg-gqb"; */
+"EBV-Mg-gqb.text" = "1997";
+
+/* Class = "UILabel"; text = "Author:"; ObjectID = "I5E-F7-AzD"; */
+"I5E-F7-AzD.text" = "Author:";
+
+/* Class = "UILabel"; text = "Publication Date:"; ObjectID = "Oak-RW-TcL"; */
+"Oak-RW-TcL.text" = "Publication Date:";
+
+/* Class = "UILabel"; text = "900+"; ObjectID = "XcH-cU-oYP"; */
+"XcH-cU-oYP.text" = "900+";
+
+/* Class = "UILabel"; text = "One Piece"; ObjectID = "Y2A-xA-U3B"; */
+"Y2A-xA-U3B.text" = "One Piece";
+
+/* Class = "UISegmentedControl"; fCh-TD-RRh.segmentTitles[0] = "Qazaq"; ObjectID = "fCh-TD-RRh"; */
+"fCh-TD-RRh.segmentTitles[0]" = "Qazaq";
+
+/* Class = "UISegmentedControl"; fCh-TD-RRh.segmentTitles[1] = "Russian"; ObjectID = "fCh-TD-RRh"; */
+"fCh-TD-RRh.segmentTitles[1]" = "Russian";
+
+/* Class = "UISegmentedControl"; fCh-TD-RRh.segmentTitles[2] = "English"; ObjectID = "fCh-TD-RRh"; */
+"fCh-TD-RRh.segmentTitles[2]" = "English";
+
+/* Class = "UILabel"; text = "Anime title:"; ObjectID = "oUK-nb-x33"; */
+"oUK-nb-x33.text" = "Anime title:";
+
+/* Class = "UILabel"; text = "Series:"; ObjectID = "vgA-ON-ixh"; */
+"vgA-ON-ixh.text" = "Series:";

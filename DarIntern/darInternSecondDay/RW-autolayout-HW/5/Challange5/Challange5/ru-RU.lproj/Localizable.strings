@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Challange5
+
+  Created by Aibol Tungatarov on 7/15/19.
+  Copyright © 2019 Aibol Production. All rights reserved.
+*/
+"animeTitle" = "Название Аниме: "
+"animeTitleAnswer" = "Ван Пис"
+"author" = "Автор: "
+"authorAnswer" = "Эйитиро Ода"
+"date" = "Дата публикаций: "
+"series" = "Сколько серии: "

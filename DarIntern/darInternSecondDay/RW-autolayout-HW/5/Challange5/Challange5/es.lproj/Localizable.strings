@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Challange5
+
+  Created by Aibol Tungatarov on 7/15/19.
+  Copyright © 2019 Aibol Production. All rights reserved.
+*/
+"animeTitle" = "Anime title: "
+"animeTitleAnswer" = "One Piece"
+"author" = "Author: "
+"authorAnswer" = "Eiichiro Oda"
+"date" = "Publication Date: "
+"series" = "Series: "
