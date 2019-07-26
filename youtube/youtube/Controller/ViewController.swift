@@ -28,6 +28,24 @@ class HomeController: UICollectionViewController  {
         
         
         setupMenuBar()
+        setupNavBarButtons()
+    }
+    
+    func setupNavBarButtons() {
+        let searchImage = UIImage(named: "search")?.withRenderingMode(.alwaysOriginal)
+        let searchNavBarButton = UIBarButtonItem(image: searchImage, style: .plain, target: self, action: #selector(handleSeacrh))
+        
+        let moreImage = UIImage(named: "more")?.withRenderingMode(.alwaysOriginal)
+        let moreNavBarButton = UIBarButtonItem(image: moreImage, style: .plain, target: self, action: #selector(handleMore))
+        
+        navigationItem.rightBarButtonItems = [moreNavBarButton, searchNavBarButton]
+    }
+    @objc func handleSeacrh() {
+        print(123)
+    }
+    
+    @objc func handleMore() {
+        print(456)
     }
     
     let menuBar: MenuBar = {

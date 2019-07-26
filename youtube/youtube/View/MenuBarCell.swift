@@ -16,6 +16,18 @@ class MenuBarCell: UICollectionViewCell {
         iv.tintColor = UIColor.rgbColor(r: 91, g: 14, b: 13)
         return iv
     }()
+    
+    override var isSelected: Bool {
+        didSet {
+            imageView.tintColor = isSelected ? UIColor.white : UIColor.rgbColor(r: 91, g: 14, b: 13)
+        }
+    }
+    
+    override var isHighlighted: Bool {
+        didSet {
+            imageView.tintColor = isHighlighted ? UIColor.white : UIColor.rgbColor(r: 91, g: 14, b: 13)
+        }
+    }
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(imageView)

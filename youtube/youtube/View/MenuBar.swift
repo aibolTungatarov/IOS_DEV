@@ -25,6 +25,8 @@ class MenuBar: UIView {
         super.init(frame: frame)
         backgroundColor = UIColor.rgbColor(r: 230, g: 32, b: 31)
         setupCollectionView()
+        let indexPath = IndexPath(item: 0, section: 0)
+        collectionView.selectItem(at: indexPath, animated: true, scrollPosition: [])
     }
     
     required init?(coder aDecoder: NSCoder) {

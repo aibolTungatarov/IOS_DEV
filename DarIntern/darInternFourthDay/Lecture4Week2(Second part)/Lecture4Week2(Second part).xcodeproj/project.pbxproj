@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		8E5A96A022E039CB0054DC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A969E22E039CB0054DC32 /* Main.storyboard */; };
 		8E5A96A222E039CD0054DC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A96A122E039CD0054DC32 /* Assets.xcassets */; };
 		8E5A96A522E039CD0054DC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A96A322E039CD0054DC32 /* LaunchScreen.storyboard */; };
+		8E9CD63A22E6C8F500D3C728 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9CD63922E6C8F500D3C728 /* SecondViewController.swift */; };
+		8E9CD63C22E6D6F900D3C728 /* NetflixMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9CD63B22E6D6F900D3C728 /* NetflixMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		8E5A96A122E039CD0054DC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E5A96A422E039CD0054DC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E5A96A622E039CD0054DC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9CD63922E6C8F500D3C728 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8E9CD63B22E6D6F900D3C728 /* NetflixMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixMainViewController.swift; sourceTree = "<group>"; };
 		AE07E994481C2697BBD7BF96 /* Pods_Lecture4Week2_Second_part_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture4Week2_Second_part_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,7 +50,6 @@
 				66379C7E126BA4DF97E273C6 /* Pods-Lecture4Week2(Second part).debug.xcconfig */,
 				57BA9380EC17BC474414B4E8 /* Pods-Lecture4Week2(Second part).release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,6 +80,8 @@
 				8E5A96A122E039CD0054DC32 /* Assets.xcassets */,
 				8E5A96A322E039CD0054DC32 /* LaunchScreen.storyboard */,
 				8E5A96A622E039CD0054DC32 /* Info.plist */,
+				8E9CD63922E6C8F500D3C728 /* SecondViewController.swift */,
+				8E9CD63B22E6D6F900D3C728 /* NetflixMainViewController.swift */,
 			);
 			path = "Lecture4Week2(Second part)";
 			sourceTree = "<group>";
@@ -204,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9CD63C22E6D6F900D3C728 /* NetflixMainViewController.swift in Sources */,
+				8E9CD63A22E6C8F500D3C728 /* SecondViewController.swift in Sources */,
 				8E5A969D22E039CB0054DC32 /* ViewController.swift in Sources */,
 				8E5A969B22E039CB0054DC32 /* AppDelegate.swift in Sources */,
 			);
