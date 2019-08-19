@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jvW-sG-dVG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jvW-sG-dVG">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,15 +31,16 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SIm-ta-r2b">
                                 <rect key="frame" x="0.0" y="120" width="375" height="547"/>
                                 <color key="backgroundColor" red="0.0" green="0.40784313729999999" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="5" id="t6b-CH-oUp">
                                     <size key="itemSize" width="155" height="255"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="headerReferenceSize" width="375" height="36"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="20" minY="15" maxX="20" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="20" minY="15" maxX="20" maxY="15"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendCell" id="kby-g8-AAG" customClass="FriendCell" customModule="PetPal" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="15" width="155" height="255"/>
+                                        <rect key="frame" x="20" y="51" width="155" height="255"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="255"/>
@@ -109,6 +110,24 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="HeaderRow" id="4tZ-tB-soT">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KX2-T3-h4p">
+                                            <rect key="frame" x="8" y="8" width="351" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="KX2-T3-h4p" firstAttribute="centerY" secondItem="4tZ-tB-soT" secondAttribute="centerY" id="8F3-ac-ahc"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="KX2-T3-h4p" secondAttribute="trailing" constant="8" id="T8U-vX-9mu"/>
+                                        <constraint firstItem="KX2-T3-h4p" firstAttribute="leading" secondItem="4tZ-tB-soT" secondAttribute="leading" constant="8" id="y6Z-lF-BlQ"/>
+                                    </constraints>
+                                </collectionReusableView>
                                 <connections>
                                     <outlet property="dataSource" destination="QhV-H5-8Pu" id="W5B-IU-8QU"/>
                                     <outlet property="delegate" destination="QhV-H5-8Pu" id="Era-HP-gmA"/>
@@ -164,6 +183,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gEe-JH-eUB">
                                 <rect key="frame" x="0.0" y="120" width="375" height="547"/>
                                 <color key="backgroundColor" red="0.0" green="0.40784313729999999" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="5" id="fce-8f-BsG">
                                     <size key="itemSize" width="150" height="250"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -228,6 +248,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="wRN-XS-gD2" id="S0A-yF-AxP"/>
                                     <outlet property="delegate" destination="wRN-XS-gD2" id="x9c-Lw-cSi"/>
+                                    <outletCollection property="gestureRecognizers" destination="6WA-iU-4mb" appends="YES" id="CFF-fg-xsb"/>
                                 </connections>
                             </collectionView>
                         </subviews>
@@ -252,9 +273,15 @@
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="gEe-JH-eUB" id="QWo-eN-YGq"/>
+                        <outlet property="longTapGestureRec" destination="6WA-iU-4mb" id="V7E-83-Vdg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qMq-CZ-rAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="6WA-iU-4mb">
+                    <connections>
+                        <action selector="longTapToDeleteWithSender:" destination="wRN-XS-gD2" id="qre-Sc-3CB"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1502" y="143"/>
         </scene>
