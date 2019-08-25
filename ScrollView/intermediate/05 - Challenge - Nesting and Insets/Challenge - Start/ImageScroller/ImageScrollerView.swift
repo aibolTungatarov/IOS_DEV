@@ -1,4 +1,4 @@
-/// Copyright (c) 2018 Razeware LLC
+/// Copyright (c) 2019 Razeware LLC
 /// 
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
 /// of this software and associated documentation files (the "Software"), to deal
@@ -28,12 +28,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-  
+class ImageScrollerViewController: UIViewController {
   @IBOutlet weak var scrollView: UIScrollView!
+  @IBOutlet weak var pageControl: UIPageControl!
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    scrollView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 20, right: 0)
+    scrollView.delegate = self
+  }
+}
+
+extension ImageScrollerViewController: UIScrollViewDelegate {
+  func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    let pageWidth = view.bounds.width
+    let currentPage = Int(scrollView.contentOffset.x / pageWidth)
+    pageControl.currentPage = currentPage
   }
 }

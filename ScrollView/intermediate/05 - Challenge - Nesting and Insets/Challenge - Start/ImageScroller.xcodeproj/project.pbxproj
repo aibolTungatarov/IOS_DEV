@@ -10,6 +10,7 @@
 		0A2B02B5218FDBA100289041 /* toucan_cartoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B02B4218FDBA100289041 /* toucan_cartoon.png */; };
 		0A3749F8218366C6005EE94D /* Vampire Toucan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A3749F7218366C6005EE94D /* Vampire Toucan.jpg */; };
 		5C2901831F8F6DE700803663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */; };
+		8E9C99C42312594900A56E46 /* ImageScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C99C32312594900A56E46 /* ImageScrollerView.swift */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
@@ -24,6 +25,7 @@
 		0A2B02B4218FDBA100289041 /* toucan_cartoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toucan_cartoon.png; sourceTree = "<group>"; };
 		0A3749F7218366C6005EE94D /* Vampire Toucan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vampire Toucan.jpg"; sourceTree = "<group>"; };
 		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E9C99C32312594900A56E46 /* ImageScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollerView.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* ImageScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				E22269FF218C61F300A66D25 /* Vampire Toucan Description.txt */,
 				5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */,
 				D2A5F20F1F4A9144005CD714 /* Info.plist */,
+				8E9C99C32312594900A56E46 /* ImageScrollerView.swift */,
 			);
 			path = ImageScroller;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29CE2B02182A16900233A73 /* ViewController.swift in Sources */,
+				8E9C99C42312594900A56E46 /* ImageScrollerView.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
